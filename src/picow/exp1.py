@@ -8,4 +8,4 @@ while True:
     time.sleep(2) #Sleep
     
     led.value(0) #LED OFF
-    time.sleep(2) #Sleep
+    time.sleep(2) #Sleep 2s

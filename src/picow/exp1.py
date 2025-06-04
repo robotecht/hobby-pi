@@ -1,0 +1,11 @@
+from machine import Pin
+import time
+
+led = Pin(16,Pin.OUT) #Set up pin 16 connected with LED
+
+while True:
+    led.value(1) #LED ON
+    time.sleep(2) #Sleep
+    
+    led.value(0) #LED OFF
+    time.sleep(2) #Sleep

@@ -1,7 +1,7 @@
 from machine import Pin
 import time
 
-led = Pin(16,Pin.OUT) #Set up pin 16 connected with LED
+led = Pin("LED",Pin.OUT) #Set up pin 16 connected with LED
 
 while True:
     led.value(1) #LED ON

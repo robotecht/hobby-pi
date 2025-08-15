@@ -15,11 +15,11 @@ def interpret_force(value):
     elif value < 205:
         return "light touch"
     elif value < 512:
-        return "light forced touch"
+        return "light squeeze"
     elif value < 819:
-        return "medium forced touch"
+        return "medium squeeze"
     else:
-        return "highly forced touch"
+        return "big squeeze"
 
 # Main loop to continuously read and display force sensor data
 while True:
